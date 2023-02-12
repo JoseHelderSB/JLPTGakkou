@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JLPT Course</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" href="styles">
 </head>
+
 <body>
-    
+    <header>
+        <img src="img/logo.png" alt="JLPT Gakkou">
+        <nav class="mt-1 mx-auto">
+            <a href="#">Início</a>
+            <a href="#">Níveis</a>
+            <a href="#">Provas</a>
+            <a href="#">Sobre</a>
+        </nav>
+        <a href="#" class="button mt-1 mb-1 mx-auto">Inscreva-se</a>
+    </header>
+    <main>
+        <section class="hero-section">
+            <img src="img/back-img.png" alt="losango img">
+            <div>
+                <h1 class="mt-2">Garanta seu certificado do <span class="text-primary decoration">JLPT</span> com nossa escola.</h1>
+                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique 
+                    illum architecto aut tempore, veniam recusandae, doloruis.</p>
+                <a href="#" class="button">Comece agora</a>
+            </div>
+        </section>
+        <section class="courses-section">
+            <div class="cards">
+                <article>
+                    <img src="img/kanji.png" alt="ícone do kanji">
+                    <strong>KANJIS</strong>
+                    <p>Aprender kanjis</p>
+                    <a href="#">
+                        <img src="img/arrow-right.svg" alt="ir para página de kanji">
+                    </a>
+                </article>
+                <article>
+                    <img src="img/bunpou.png" alt="ícone do bunpou">
+                    <strong>GRAMÁTICA</strong>
+                    <p>Aprender os tópicos de gramática</p>
+                    <a href="#">
+                        <img src="img/arrow-right.svg" alt="ir para página de gramática">
+                    </a>
+                </article>
+                <article>
+                    <img src="img/choukai.png" alt="ícone do choukai">
+                    <strong>COMPREENSÃO AUDITIVA</strong>
+                    <p>Treinar a compreensão auditiva</p>
+                    <a href="#">
+                        <img src="img/arrow-right.svg" alt="ir para página de choukai">
+                    </a>
+                </article>
+                <article>
+                    <img src="img/dokkai.png" alt="ícone do dokkai">
+                    <strong>INTERPRETAÇÃO DE TEXTO</strong>
+                    <p>Treinar interpretação de texto</p>
+                    <a href="#">
+                        <img src="img/arrow-right.svg" alt="ir para página de dokkai">
+                    </a>
+                </article>
+                <article>
+                    <img src="img/goi.png" alt="ícone do goi">
+                    <strong>VOCABULÁRIO</strong>
+                    <p>Aprender os tópicos de gramática</p>
+                    <a href="#">
+                        <img src="img/arrow-right.svg" alt="ir para página de gramática">
+                    </a>
+                </article>
+            </div>
+
+            <h2> E <span class="text-primary"> muitos</span> outros materiais!</h2>
+            <a href="#">Conhecer os cursos</a>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="img/logo-jlpt.png" alt="logo JLPT">
+            <p>Texto sobre a escola online</p>
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Níveis</a>
+            <a href="#">Provas</a>
+            <a href="#">Sobre</a>
+        </nav>
+        <form>
+            <label for="email">Receba materiais no seu email</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu email">
+        </form>
+    </footer>
 </body>
 </html>
