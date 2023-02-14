@@ -18,6 +18,11 @@ body{
     padding: 0 1rem;
 }
 
+header{
+    background: url(https://i.ibb.co/dWWQ7Jr/header-5120x-9109f894.jpg);
+    background-size: cover;
+}
+
 header,
 .hero-section,
 .courses-section,
@@ -37,6 +42,7 @@ header nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem auto 0;
+    
 }
 
 nav a {
@@ -67,6 +73,8 @@ header nav a:nth-child(2n-1){
 
 .hero-section {
     padding-top: 1rem;
+    height: 90%;
+    justify-content: center;
     padding-right: 10rem ;
     padding-left: 10rem ;
     padding-bottom: 16rem;
@@ -123,6 +131,8 @@ h2{
 
 .courses-section {
     padding-bottom: 8rem;
+    background: url(https://i.ibb.co/tcR6s1L/zyro-image.jpg);
+    background-size: cover;
 }
 
 
