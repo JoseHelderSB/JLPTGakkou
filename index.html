@@ -12,49 +12,56 @@
 
     <link rel="stylesheet" href="index.css">
 
-    <link rel="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" href="styles">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
-    <header>
-        <img src="img/logo-jlpt.png" alt="JLPT Gakkou">
-        <nav class="mt-1 mx-auto">
-            <a href="#">Início</a>
-            <a href="#">Níveis</a>
-            <a href="#">Provas</a>
-            <a href="#">Sobre</a>
-        </nav>
-        <a href="#" class="button mt-1 mb-1 mx-auto">Inscreva-se</a>
+    <header class="container">
+        <div>
+            <img src="img/logo-jlpt.png" alt="JLPT Gakkou">
+            <nav class="mx-auto">
+                <a href="#">Início</a>
+                <a href="#">Níveis</a>
+                <a href="#">Provas</a>
+                <a href="#">Sobre</a>
+            </nav>
+            <a href="#" class="button mt-1 mb-1 mx-auto">Inscreva-se</a>
+        </div>
     </header>
     <main>
         <section class="hero-section">
-            <img src="img/back-img.png" alt="hexagono img">
             <div>
-                <h1 class="mt-2">Garanta seu certificado do <span class="text-primary decoration">JLPT</span> com nossa escola.</h1>
-                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique 
-                    illum architecto aut tempore, veniam recusandae, doloruis.</p>
-                <a href="#" class="button">Comece agora</a>
+                <img src="img/bg-img.png" alt="hexagono img">
+                <p style="background-image: url('https://sakurasakunihongo.files.wordpress.com/2022/02/img_7371.jpg?w=1200');">
+                <div>
+                    <h1 class="mt-2">Garanta seu certificado do <span class="text-primary decoration">JLPT</span> <br>  com nossa escola.</h1>
+                    <p class="mt-2 mb-2">A JLPT Gakkou é um preparatório online para o exame de proficiência em Língua Japonesa. </br>Aqui você conquista todas as competências necessárias para a aprovação no exame.</p>
+                    <a href="#" class="button">Comece agora</a>
+                </div>
             </div>
         </section>
         <section class="courses-section">
             <div class="cards">
-                <article>
+                <article class="card">
                     <img src="img/kanji.png" alt="ícone do kanji">
                     <strong>KANJIS</strong>
-                    <p>Aprender kanjis</p>
+                    <p>Aprender kanjis de todos os níveis de maneira fácil</p>
                     <a href="#">
                         <img src="img/arrow-right.svg" alt="ir para página de kanji">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/bunpou.png" alt="ícone do bunpou">
                     <strong>GRAMÁTICA</strong>
-                    <p>Aprender os tópicos de gramática</p>
+                    <p>Aprender os tópicos gramaticais</p>
                     <a href="#">
                         <img src="img/arrow-right.svg" alt="ir para página de gramática">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/choukai.png" alt="ícone do choukai">
                     <strong>COMPREENSÃO AUDITIVA</strong>
                     <p>Treinar a compreensão auditiva</p>
@@ -62,7 +69,7 @@
                         <img src="img/arrow-right.svg" alt="ir para página de choukai">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/dokkai.png" alt="ícone do dokkai">
                     <strong>INTERPRETAÇÃO DE TEXTO</strong>
                     <p>Treinar interpretação de texto</p>
@@ -70,7 +77,7 @@
                         <img src="img/arrow-right.svg" alt="ir para página de dokkai">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/goi.png" alt="ícone do goi">
                     <strong>VOCABULÁRIO</strong>
                     <p>Aprender os tópicos de gramática</p>
@@ -80,24 +87,25 @@
                 </article>
             </div>
 
-            <h2> E <span class="text-primary"> muitos</span> outros materiais!</h2>
-            <a href="#">Conhecer os cursos</a>
+            <h2 class="text-center"> E <span class="text-primary"> muitos</span> outros materiais!</h2>
+            <a href="#" class="button mt-2 mx-auto">Conhecer os cursos</a>
         </section>
     </main>
     <footer>
         <div>
-            <img src="img/logo-jlpt.png" alt="logo JLPT">
-            <p>Texto sobre a escola online</p>
+            <img src="img/logo-jlpt.png" alt="logo JLPT" class="mt-1 mb-1">
+            <p class="mb-2">JLPT Gakkou é a primeira escola online com preparação para os exames de proficiência em Língua Japonesa no Brasil.</p>
         </div>
-        <nav>
+        <nav class="mb-2">
             <a href="#">Início</a>
             <a href="#">Níveis</a>
             <a href="#">Provas</a>
             <a href="#">Sobre</a>
         </nav>
-        <form>
-            <label for="email">Receba materiais no seu email</label>
-            <input type="text" name="email" id="email" placeholder="Digite seu email">
+        <form class="newsletter-form">
+            <label for="email" class="mb-1">Receba materiais no seu email</label>
+            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu email">
+            <button class="button mb-2">Quero receber</button>
         </form>
     </footer>
 </body>
